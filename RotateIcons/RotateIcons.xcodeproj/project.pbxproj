@@ -12,6 +12,9 @@
 		A12B4B221F1AD0B6008161F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12B4B201F1AD0B6008161F8 /* Main.storyboard */; };
 		A12B4B241F1AD0B6008161F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12B4B231F1AD0B6008161F8 /* Assets.xcassets */; };
 		A12B4B271F1AD0B6008161F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12B4B251F1AD0B6008161F8 /* LaunchScreen.storyboard */; };
+		A177513A1F1AD7B3008620AC /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17751391F1AD7B3008620AC /* UIViewExtension.swift */; };
+		A177513E1F1ADECE008620AC /* cameraIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A177513D1F1ADECE008620AC /* cameraIcon.png */; };
+		A1E7D1B71F1AD1C000504B33 /* RotatingIconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7D1B61F1AD1C000504B33 /* RotatingIconsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		A12B4B231F1AD0B6008161F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A12B4B261F1AD0B6008161F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A12B4B281F1AD0B6008161F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17751391F1AD7B3008620AC /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		A177513D1F1ADECE008620AC /* cameraIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraIcon.png; sourceTree = "<group>"; };
+		A1E7D1B61F1AD1C000504B33 /* RotatingIconsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatingIconsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		A12B4B1B1F1AD0B6008161F8 /* RotateIcons */ = {
 			isa = PBXGroup;
 			children = (
+				A177513D1F1ADECE008620AC /* cameraIcon.png */,
+				A1E7D1B61F1AD1C000504B33 /* RotatingIconsView.swift */,
 				A12B4B1C1F1AD0B6008161F8 /* AppDelegate.swift */,
 				A12B4B1E1F1AD0B6008161F8 /* ViewController.swift */,
 				A12B4B201F1AD0B6008161F8 /* Main.storyboard */,
 				A12B4B231F1AD0B6008161F8 /* Assets.xcassets */,
 				A12B4B251F1AD0B6008161F8 /* LaunchScreen.storyboard */,
 				A12B4B281F1AD0B6008161F8 /* Info.plist */,
+				A17751391F1AD7B3008620AC /* UIViewExtension.swift */,
 			);
 			path = RotateIcons;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A12B4B271F1AD0B6008161F8 /* LaunchScreen.storyboard in Resources */,
+				A177513E1F1ADECE008620AC /* cameraIcon.png in Resources */,
 				A12B4B241F1AD0B6008161F8 /* Assets.xcassets in Resources */,
 				A12B4B221F1AD0B6008161F8 /* Main.storyboard in Resources */,
 			);
@@ -137,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1E7D1B71F1AD1C000504B33 /* RotatingIconsView.swift in Sources */,
 				A12B4B1F1F1AD0B6008161F8 /* ViewController.swift in Sources */,
+				A177513A1F1AD7B3008620AC /* UIViewExtension.swift in Sources */,
 				A12B4B1D1F1AD0B6008161F8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +314,7 @@
 				A12B4B2D1F1AD0B6008161F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
